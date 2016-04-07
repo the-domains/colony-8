@@ -1,29 +1,41 @@
-name: Colony 8
-favicon: null
-layout_spectrum: 0.999
-typography_spectrum: 0.4934604975860566
 title: Colony 8 - Sci Fi Web Series
 cta:
-  domain: null
-  bucket: null
   version: null
+  bucket: null
+  domain: null
+layout_spectrum: 0.9047619
+favicon: null
+name: Colony 8
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
+  brandStrength: 0.1350745575036854
+  saturation: 0.1672619108576328
   brandColors:
     - '#050014'
     - '#291d29'
     - '#575362'
     - '#a096a1'
     - '#ccc8d9'
-  brandStrength: 0.13507455750368536
-  lightness: 0.28633162728510797
-  saturation: 0.16726191085763276
+  lightness: 0.286331627285108
   rhythmicContrast: 0.2680949568748474
-purpose: []
+typography_spectrum: 0.4934604975860566
